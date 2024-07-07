@@ -15,10 +15,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
       <body className={inter.className}>
-      
-        <main className="bg-[#FAFAFA] dark:bg-background  text-foreground flex flex-col justify-center items-center w-full pt-13">
+
+        <main>
         {children}
         </main>
+ 
         </body>
     </html>
   );

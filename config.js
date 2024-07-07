@@ -13,7 +13,8 @@ const config = {
     // Hide Crisp by default, except on route "/". Crisp is toggled with <ButtonSupport/>. If you want to show Crisp on every routes, just remove this below
     onlyShowOnRoutes: ["/"],
   },
- 
+
+  // used by MailChimp, Loops, and MailPace
   auth: {
     // REQUIRED — the path to log in users. It's use to protect private routes (like /dashboard). It's used in apiClient (/libs/api.js) upon 401 errors from our API
     loginUrl: "/api/auth/signin",
@@ -22,4 +23,6 @@ const config = {
   },
 };
 
+
+export const emailFrom = "no-reply@email.com"; 
 export default config;

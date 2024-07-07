@@ -1,10 +1,11 @@
-
-import Hero from "@/components/Hero";
+import Notes from "./components/Contact";
 
 export default function Home() {
+
+
   return (
-    <>
-  <Hero/>
+    <> 
+   <Notes/>
    </>
   );
 }
